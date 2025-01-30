@@ -236,6 +236,63 @@
 
 
 </div>
+<script src="../../jt-assets-source.b-cdn.net/assets/js/carousel.min.js"></script> <script src="../../jt-assets-source.b-cdn.net/assets/js/carousel-grid.min.js"></script> <script>
+  const categories = new Splide('#categories', {
+    mediaQuery: 'min',
+    perPage: 2,
+    breakpoints: {
+      1200: {
+        perPage: 4
+      },
+      992: {
+        perPage: 3
+      }
+    },
+    padding: {
+      left: 4,
+      right: 14
+    }
+  })
+  categories.mount()
+
+  document.querySelectorAll('#top-collection').forEach((topCollection) => {
+    new Splide(topCollection, {
+      grid: {
+        dimensions: [
+          [6, 1]
+        ],
+        gap: {
+          row: '1rem',
+          col: '1.5rem',
+        },
+      },
+      mediaQuery: 'min',
+      perPage: 1,
+      breakpoints: {
+        1200: {
+          pagination: false,
+        },
+        992: {
+          perPage: 3,
+        },
+        768: {
+          perPage: 2,
+        }
+      },
+      padding: {
+        left: 4,
+        right: 12
+      }
+    }).mount(window.splide.Extensions)
+  })
+
+  var splide = new Splide('#header-info', {
+    type: 'loop',
+    perPage: 1,
+    autoplay: true,
+  });
+  splide.mount();
+</script>
 <script>
     const livecams = new Splide('#livecams', {
       mediaQuery: 'min',
