@@ -2,3 +2,30 @@
 li {
   list-style-type: none;
 }
+main-nav {
+  z-index: 999999999;
+}
+#main-nav {
+  z-index: 999999999;
+}
+.main-nav {
+  z-index: 999999999;
+}
+mobile-nav {
+  z-index: 999999999;
+}
+#mobile-nav {
+  z-index: 999999999;
+}
+.mobile-nav {
+  z-index: 999999999;
+}
+offcanvas {
+  z-index: 999999999;
+}
+#offcanvas {
+  z-index: 999999999;
+}
+.offcanvas {
+  z-index: 999999999;
+}
