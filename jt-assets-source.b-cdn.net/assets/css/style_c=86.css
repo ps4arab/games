@@ -4,37 +4,37 @@ li {
 }
 main-nav {
   z-index: 999999999;
-  position: absolute;
+  position: fixed;
 }
 #main-nav {
   z-index: 999999999;
-  position: absolute;
+  position: fixed;
 }
 .main-nav {
   z-index: 999999999;
-  position: absolute;
+  position: fixed;
 }
 mobile-nav {
   z-index: 999999999;
-  position: absolute;
+  position: fixed;
 }
 #mobile-nav {
   z-index: 999999999;
-  position: absolute;
+  position: fixed;
 }
 .mobile-nav {
   z-index: 999999999;
-  position: absolute;
+  position: fixed;
 }
 offcanvas {
   z-index: 999999999;
-  position: absolute;
+  position: fixed;
 }
 #offcanvas {
   z-index: 999999999;
-  position: absolute;
+  position: fixed;
 }
 .offcanvas {
   z-index: 999999999;
-  position: absolute;
+  position: fixed;
 }
