@@ -4,37 +4,37 @@ li {
 }
 main-nav {
   z-index: 999999999;
-  background-color: white;
+  position: relative;
 }
 #main-nav {
   z-index: 999999999;
-  background-color: white;
+  position: relative;
 }
 .main-nav {
   z-index: 999999999;
-  background-color: white;
+  position: relative;
 }
 mobile-nav {
   z-index: 999999999;
-  background-color: white;
+  position: relative;
 }
 #mobile-nav {
   z-index: 999999999;
-  background-color: white;
+  position: relative;
 }
 .mobile-nav {
   z-index: 999999999;
-  background-color: white;
+  position: relative;
 }
 offcanvas {
   z-index: 999999999;
-  background-color: white;
+  position: relative;
 }
 #offcanvas {
   z-index: 999999999;
-  background-color: white;
+  position: relative;
 }
 .offcanvas {
   z-index: 999999999;
-  background-color: white;
+  position: relative;
 }
