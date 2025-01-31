@@ -5,12 +5,18 @@ li {
 #main-nav {
   z-index: 999999999;
   position: absolute;
+  opacity: 1;
+  background-color: red;
 }
 #mobile-nav {
   z-index: 999999999;
   position: absolute;
+  opacity: 1;
+  background-color: red;
 }
 #offcanvas {
   z-index: 999999999;
   position: absolute;
+  opacity: 1;
+  background-color: red;
 }
